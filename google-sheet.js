@@ -24,7 +24,7 @@ $("#foo").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbzKKauUBFzocoh9y11zeRQrr8M3kJOukjBdhV02kQ6PykbJjUg1/exec",
+        url: "ENTER GOOGLE SHEET URL HERE",
         type: "post",
         data: serializedData
     });
